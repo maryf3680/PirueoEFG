@@ -4,7 +4,6 @@ unit_names units()
 public node use_night_vision_theme {
     input start_fullscreen: false;
     input speed_units: units.mph;
-    input pressure_units: units.inHg;
     input torque_units: units.lb_ft;
     input power_units: units.hp;
     input color: 0x4dff68;
@@ -21,7 +20,6 @@ public node use_night_vision_theme {
         color_foreground: color,
         color_highlight1: color,
         color_highlight2: color,
-        color_shadow: 0x000000,
         color_pink: color,
         color_red: color,
         color_orange: color,
